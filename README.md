@@ -43,7 +43,45 @@ Go beyond the basics! This powerful script includes everything from `install.sh`
 - 📝 **Final Tips**: Wraps things up with pointers for manual tweaks and configuration.
 
 ---
+---
+```mermaid
+flowchart TD
+    A[Start] --> B[Update System]
+    B --> C{Select Script}
+    C -->|install.sh| D[Install Basic Packages]
+    D --> E[Install RetroArch]
+    D --> F[Install Plex Media Server]
+    D --> G[Install Kodi]
+    D --> H[Optional Add-ons]
+    C -->|install_II.sh| I[Update and Upgrade System]
+    I --> J[Install Necessary Dependencies]
+    J --> K[Install RetroArch with PPA Support]
+    K --> L[Install Plex Media Server with Latest Package]
+    L --> M[Setup Kodi and Create Config Directory]
+    M --> N[Enable PVR IPTV Simple Client]
+    N --> O[Install Additional Media Applications]
+    O --> P[Final Notes for Configuration]
+    P --> Q[End]
 
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style B fill:#ff9,stroke:#333,stroke-width:2px
+    style C fill:#bbf,stroke:#333,stroke-width:2px
+    style D fill:#9f9,stroke:#333,stroke-width:2px
+    style E fill:#9f9,stroke:#333,stroke-width:2px
+    style F fill:#9f9,stroke:#333,stroke-width:2px
+    style G fill:#9f9,stroke:#333,stroke-width:2px
+    style H fill:#9f9,stroke:#333,stroke-width:2px
+    style I fill:#ff9,stroke:#333,stroke-width:2px
+    style J fill:#9f9,stroke:#333,stroke-width:2px
+    style K fill:#9f9,stroke:#333,stroke-width:2px
+    style L fill:#9f9,stroke:#333,stroke-width:2px
+    style M fill:#9f9,stroke:#333,stroke-width:2px
+    style N fill:#9f9,stroke:#333,stroke-width:2px
+    style O fill:#9f9,stroke:#333,stroke-width:2px
+    style P fill:#9f9,stroke:#333,stroke-width:2px
+    style Q fill:#f9f,stroke:#333,stroke-width:2px
+```
+---
 ## 🚦 Getting Started
 
 No more copy-pasting dozens of commands!  
@@ -86,64 +124,3 @@ Before you run the scripts, make sure you have:
 - 🌐 An internet connection.
 
 ---
-
-## 🤝 Contributing
-
-Your feedback & contributions make this project better!  
-**Found a bug? Have a feature request?**  
-[Open an issue](https://github.com/elithaxxor/linux-entertainment-auto/issues) or send a pull request — newcomers *welcome*!
-
----
-
-## 📜 License
-
-Licensed under the MIT License.   
-See [`LICENSE`](LICENSE) for details.
-
----
-
-> Made with ❤️ and open-source spirit. Happy streaming, listening, and retro gaming!
-
----
-
-**Enjoy your new Linux-powered entertainment system!**
-
----
-
-*Banner art and Linux logo are property of their respective creators.*
----
-flowchart TD
-    A[Start] --> B[Update System]
-    B --> C{Select Script}
-    C -->|install.sh| D[Install Basic Packages]
-    D --> E[Install RetroArch]
-    D --> F[Install Plex Media Server]
-    D --> G[Install Kodi]
-    D --> H[Optional Add-ons]
-    C -->|install_II.sh| I[Update and Upgrade System]
-    I --> J[Install Necessary Dependencies]
-    J --> K[Install RetroArch with PPA Support]
-    K --> L[Install Plex Media Server with Latest Package]
-    L --> M[Setup Kodi and Create Config Directory]
-    M --> N[Enable PVR IPTV Simple Client]
-    N --> O[Install Additional Media Applications]
-    O --> P[Final Notes for Configuration]
-    P --> Q[End]
-
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style B fill:#ff9,stroke:#333,stroke-width:2px
-    style C fill:#bbf,stroke:#333,stroke-width:2px
-    style D fill:#9f9,stroke:#333,stroke-width:2px
-    style E fill:#9f9,stroke:#333,stroke-width:2px
-    style F fill:#9f9,stroke:#333,stroke-width:2px
-    style G fill:#9f9,stroke:#333,stroke-width:2px
-    style H fill:#9f9,stroke:#333,stroke-width:2px
-    style I fill:#ff9,stroke:#333,stroke-width:2px
-    style J fill:#9f9,stroke:#333,stroke-width:2px
-    style K fill:#9f9,stroke:#333,stroke-width:2px
-    style L fill:#9f9,stroke:#333,stroke-width:2px
-    style M fill:#9f9,stroke:#333,stroke-width:2px
-    style N fill:#9f9,stroke:#333,stroke-width:2px
-    style O fill:#9f9,stroke:#333,stroke-width:2px
-    style P fill:#9f9,stroke:#333,stroke-width:2px
-    style Q fill:#f9f,stroke:#333,stroke-width:2px
